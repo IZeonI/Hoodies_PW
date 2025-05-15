@@ -1,0 +1,149 @@
+    
+    .contenedor-carrito {
+      display: flex;
+      justify-content: space-between;
+      padding: 20px;
+      gap: 20px;
+    }
+
+    #carrito-lista {
+      flex: 2;
+    }
+
+    .producto {
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      padding: 15px;
+      margin-bottom: 15px;
+      display: flex;
+      align-items: center;
+      gap: 15px;
+      background-color: #fff;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+
+    .producto img {
+      width: 100px;
+      height: auto;
+      border-radius: 5px;
+    }
+
+    .producto-info {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .totales-container {
+      flex: 1;
+      min-width: 320px; 
+      position: sticky;
+      top: 20px;
+      height: fit-content;
+      padding: 20px;
+      background-color: #ffffff;
+      border: 2px solid #007bff;
+      border-radius: 10px;
+      box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .totales-container p {
+      margin: 8px 0;
+      font-size: 16px;
+    }
+
+    .totales-container a {
+      margin-top: 20px;
+      color: white;
+    }
+    
+    .totales-container a:hover {
+      background-color: #0961bf;
+    }
+
+    .totales-container p strong {
+      font-size: 18px;
+    }
+
+    .fashion_section_2 button {
+      margin-top: 20px;
+      padding: 10px 15px;
+      border: none;
+      background-color: #d9534f;
+      color: white;
+      border-radius: 5px;
+      cursor: pointer;
+      vertical-align: top;
+    }
+
+    .fashion_section_2 button:hover {
+      background-color: #c9302c;
+    }
+
+    .volver-btn {
+      display: inline-block;
+      margin-top: 15px;
+      text-decoration: none;
+      background-color: #007bff;
+      color: white;
+      padding: 10px 15px;
+      border-radius: 5px;
+    }
+
+    .vaciar-btn {
+      background-color: #6c757d;
+    }
+
+    .mensaje-vacio {
+      text-align: center;
+      padding: 50px;
+    }
+
+    .mensaje-vacio a {
+      color: white;
+    }
+
+    .mensaje-vacio a:hover {
+      background-color: #0961bf;
+    }
+
+    .mensaje-vacio h2 {
+      font-size: 24px;
+      margin-bottom: 20px;
+    }
+
+    .total-linea {
+    display: flex;
+    justify-content: space-between;
+    margin: 8px 0;
+    font-size: 16px;
+    }
+
+    .total-final {
+    font-size: 18px;
+    font-weight: bold;
+    border-top: 2px solid #007bff;
+    padding-top: 10px;
+    margin-top: 15px;
+    }
+
+    .producto-controles {
+    margin-top: 10px;
+    display: flex;
+    gap: 10px;
+    }   
+
+    .producto-controles button {
+    background-color: #ffffff;
+    border: none;
+    color: white;
+    padding: 4px 10px;
+    font-size: 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    }
+
+    .producto-controles button:hover {
+    background-color: #2d3032;
+    }
+
+
